@@ -490,3 +490,12 @@ em { color: var(--accent); font-style: italic; }
 .footer__links a { transition: color 0.3s ease; }
 .footer__links a:hover { color: var(--highlight); }
 .footer__note { font-size: 12px; color: var(--text-tertiary); font-family: var(--mono); }
+.project__link { 
+  text-decoration: none; 
+  display: block; 
+  color: inherit; 
+}
+.project__link:hover .browser--large {
+  transform: translateY(-4px);
+  transition: 0.3s;
+}
